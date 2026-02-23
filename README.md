@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CMDepth: Self-Supervised Monocular Depth Estimation based on Hybrid CNN-State Space Models
 
 To evaluate a model on KITTI, run:
@@ -17,3 +18,8 @@ Training code is currently being cleaned up and will be released together with a
 
 
 
+=======
+# CMDepth
+
+The code will be released here after the paper is accepted
+>>>>>>> b8aa45c2e80a0f153ec9eff6dd9491d27ea264af
