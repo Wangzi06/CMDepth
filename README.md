@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # CMDepth: Self-Supervised Monocular Depth Estimation based on Hybrid CNN-State Space Models
 
 To evaluate a model on KITTI, run:
