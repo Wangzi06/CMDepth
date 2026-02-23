@@ -17,10 +17,10 @@
 --min_depth 0.01
 --max_depth 80.0
 --use_stereo
---load_weights_folder /home/MonoViT/spidepth_eval/spimodels/KITTI_320x1024_models/
---image_path /home/MonoViT/spidepth_eval/visualfinetune/data/0000000553.png
+--load_weights_folder /home/MonoViT/eval/spimodels/KITTI_320x1024_models/
+--image_path /home/MonoViT/eval/visualfinetune/data/0000000553.png
 --eval_mono
 --post_process
 --pretrained_pose
---pose_net_path /home/MonoViT/spidepth_eval/logs/hybridmamba/cvnXt_075/models/res50ss2d_mambaconv_ker5/
---load_pt_folder /home/MonoViT/spidepth_eval/logs/hybridmamba/cvnXt_075/models/res50ss2d_mambaconv_ker5/
+--pose_net_path /home/MonoViT/eval/logs/hybridmamba/mamba07/models/res50ss2d_mambaconv_ker5/
+--load_pt_folder /home/MonoViT/eval/logs/hybridmamba/mamba07/models/res50ss2d_mambaconv_ker5/
