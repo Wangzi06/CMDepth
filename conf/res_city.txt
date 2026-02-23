@@ -9,10 +9,10 @@
 --min_depth 0.001
 --max_depth 80.0
 --load_pretrained_model
---load_pt_folder /home/MonoViT/spidepth_eval/spimodels/Cityscapes_models/
+--load_pt_folder /home/MonoViT/eval/spimodels/Cityscapes_models/
 --height 192
 --width 512
---image_path /home/MonoViT/spidepth_eval/visualfinetune/cityscapes/lindau/lindau_000000_000000_leftImg8bit.png
+--image_path /home/MonoViT/eval/visualfinetune/cityscapes/lindau/lindau_000000_000000_leftImg8bit.png
 --ext png
 
 
