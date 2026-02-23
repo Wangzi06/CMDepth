@@ -18,9 +18,9 @@ python evaluate_depth_config.py args_files/cm_args/kitti/CMDepthres50_192x640.tx
 ## Inference with your own iamges KITTI
 ```bash
 python test_simple_SQL_config.py ./conf/cvnXt.txt
+```
 
-## Training
-
+## Training 
 Training code is currently being cleaned up and will be released together with additional pretrained models and detailed instructions on how to train.
 
 
