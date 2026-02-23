@@ -29,6 +29,14 @@ python test_simple_SQL_config.py ./conf/cvnXt.txt
 ## Training 
 Training code is currently being cleaned up and will be released together with additional pretrained models and detailed instructions on how to train.
 
+## Acknowledgement
+
+We thank the authors of the following repositories for their excellent work and open-source contributions:
+
+- [SQLdepth](https://github.com/hisfog/SfMNeXt-Impl)
+- [CM-UNet](https://github.com/XiaoBuL/CM-UNet)
+- [Mamba](https://github.com/mamba-org/mamba)
+
 
 
 
