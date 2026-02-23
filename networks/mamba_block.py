@@ -10,7 +10,7 @@ class MambaEncoder(nn.Module):
         self.norm_mamba = nn.LayerNorm(d_model, eps=layer_norm_epsilon)
         self.mamba_blocks = Mamba(d_model=d_model, bimamba=bimamba)
         self.ln_2 = nn.LayerNorm(d_model, eps=layer_norm_epsilon)
-        self.conv1d = nn.Conv1d(d_model, d_model, kernel_size=5, padding=2) #for 192x640 kernel_size = 3, padding = 1
+        self.conv1d = nn.Conv1d(d_model, d_model, kernel_size=5, padding=2) 
         self.mlp_channels = nn.Sequential(
             nn.Linear(d_model, inner_dim),
             nn.GELU(),
