@@ -1,0 +1,32 @@
+--data_path /data/kitti_2/
+--eval_seg_data_path /home/MonoViT/spidepth_eval/splits/data_semantics/
+--log_dir logs/test_3
+--model_name cvnXt_075
+--dataset kitti
+--eval_split eigen
+--backbone convnext_large
+--height 320
+--width 1024
+--multi-dilation 4 8 16
+--log_frequency 1000
+--batch_size 4
+--learning_rate 4e-5
+--num_epochs 20
+--scheduler_step_size 15
+--model_dim 32
+--patch_size 32
+--dim_out 64
+--query_nums 64
+--dec_channels 1024 512 256 128
+--min_depth 0.001
+--max_depth 80.0
+--image_path /home/MonoViT/spidepth_eval/visualfinetune/0
+--use_stereo
+--pretrained_pose
+--load_weights_folder /home/MonoViT/spidepth_eval/logs/test4/cvnXt_075/models/dep_seg_model/
+--pose_net_path /home/MonoViT/spidepth_eval/logs/done_models/vanillamambaconvker5_nocsp/
+--make3d_path /home/MonoViT/spidepth_eval/splits/make3d/
+--eval_mono
+--post_process
+--resume /home/MonoViT/spidepth_eval/DANet/experiments/segmentation/models/dran101.pth.tar
+

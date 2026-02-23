@@ -1,0 +1,26 @@
+
+--log_dir logs/test2
+--model_name resnet_320x1024
+--dataset kitti 
+--eval_split eigen
+--height 320 
+--width 1024
+--batch_size 16
+--num_epochs 20
+--scheduler_step_size 10
+--model_dim 32
+--num_features 256
+--patch_size 20
+--dim_out 128
+--query_nums 128
+--num_layers 50
+--min_depth 0.01
+--max_depth 80.0
+--use_stereo
+--load_weights_folder /home/MonoViT/spidepth_eval/spimodels/KITTI_320x1024_models/
+--image_path /home/MonoViT/spidepth_eval/visualfinetune/data/0000000553.png
+--eval_mono
+--post_process
+--pretrained_pose
+--pose_net_path /home/MonoViT/spidepth_eval/logs/hybridmamba/cvnXt_075/models/res50ss2d_mambaconv_ker5/
+--load_pt_folder /home/MonoViT/spidepth_eval/logs/hybridmamba/cvnXt_075/models/res50ss2d_mambaconv_ker5/

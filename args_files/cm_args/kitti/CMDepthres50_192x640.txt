@@ -1,0 +1,25 @@
+--data_path /data/kitti_2/
+--log_dir logs/test3
+--model_name res_088
+--dataset kitti 
+--eval_split eigen
+--height 192 
+--width 640
+--batch_size 4
+--num_epochs 20
+--scheduler_step_size 15
+--learning_rate 4e-5
+--model_dim 32
+--patch_size 32
+--dim_out 64
+--query_nums 30
+--min_depth 0.001
+--max_depth 80.0
+--pretrained_pose
+--pose_net_path  /home/MonoViT/spidepth_eval/logs/done_models/pose_pretrained_kitti_192x640Q120/
+--use_stereo
+--load_weights_folder /home/MonoViT/spidepth_eval/logs/test3/res_088/models/weights_19/
+--eval_mono
+--post_process
+--load_pt_folder /home/MonoViT/spidepth_eval/logs/done_models/640x192mambaconvker3_res18/
+
